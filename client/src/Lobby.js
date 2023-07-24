@@ -61,6 +61,8 @@ function Lobby() {
                     return reverseStr === lowRegStr;
                   }`);
                 break;
+            default:
+                break;
         }
     }
   };
