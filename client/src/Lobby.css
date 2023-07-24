@@ -1,0 +1,137 @@
+.Lobby {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  color: #212121;
+  font-family: "Open Sans", sans-serif;
+  display: grid;
+  place-items: center;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+
+.chooseCodeBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.chooseCodeBlock h3 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: Elephant;
+}
+
+.chooseCodeBlock button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 100px;
+  margin: 7px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  background: #3e5ca6;
+  color: #fff;
+  cursor: pointer;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: Baguet Script;
+}
+
+
+.code-window {
+  width: 1000px;
+  height: 900px;
+}
+
+.code-window p {
+  margin: 0;
+}
+.code-window .code-header {
+  height: 45px;
+  border-radius: 10px;
+  background: #89a6ac;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+.code-window .code-header p {
+  display: block;
+  padding: 0 1em 0 2em;
+  color: #fff;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.code-window .code-body {
+  height: calc(900px - (45px + 70px));
+  border: 1px solid #263238;
+  background: #fff;
+  position: relative;
+  
+}
+.code-window .code-body .code-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+textarea {
+  width: 100%;
+  height: calc(900px - (45px + 70px));
+  background: #1f1f1f;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+}
+
+.code-window .code-body .code-container::-webkit-scrollbar {
+  display: none;
+}
+.code-window .code-body {
+  height: auto;
+  padding: 10px;
+  display: flex;
+}
+
+.code-window .code-body {
+  display: flex;
+  font-size: 12px;
+}
+
+.code-window .code-footer {
+  height: 40px;
+  border-top: none;
+  display: flex;
+}
+
+.code-footer button{
+  position: relative;
+  background: #8fa5b3;
+  
+}
+
+#smileyFace {
+  width: 100%;
+  height: calc(900px - (45px + 70px));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("smiley.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  resize: none;
+  padding: 10px;
+}
+
