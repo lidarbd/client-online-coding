@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import { useState , useEffect } from "react";
 import CodeBlock from "./CodeBlock";
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://server-online-coding-production.up.railway.app/");
 
 function Lobby() {
   const [codeBlockName, setCodeBlockName] = useState("");
